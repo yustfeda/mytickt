@@ -124,7 +124,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar, navigate, user
                 <SidebarNavLink action={onLoginClick} toggleSidebar={toggleSidebar} icon="fa-sign-in-alt" label="Login" />
                 <SidebarNavLink action={onRegisterClick} toggleSidebar={toggleSidebar} icon="fa-user-plus" label="Registrasi" />
                 <div className="pt-4 mt-2 border-t border-gray-700 w-full">
-                    <SidebarNavLink action={onAdminClick} toggleSidebar={toggleSidebar} icon="fa-user-shield" label="Login Admin" />
+                    <SidebarNavLink action={onAdminClick} toggleSidebar={toggleSidebar} icon="fa-user-shield" label="Reset sekarang" />
                 </div>
             </>
         )

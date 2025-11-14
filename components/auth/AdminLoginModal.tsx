@@ -17,7 +17,7 @@ const AdminLoginModal: React.FC<{
     };
     
     return (
-        <Modal isOpen={true} onClose={onClose} title="Login Admin">
+        <Modal isOpen={true} onClose={onClose} title="Reset">
             <form onSubmit={handleSubmit} className="space-y-4">
                 <input
                     type="password"
