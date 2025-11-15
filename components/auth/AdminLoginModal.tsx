@@ -23,7 +23,7 @@ const AdminLoginModal: React.FC<{
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Password"
+                    placeholder="masukkam tokken"
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-orange text-white"
                     required
                 />
@@ -32,7 +32,7 @@ const AdminLoginModal: React.FC<{
                     type="submit" 
                     className="w-full bg-brand-orange hover:bg-orange-500 text-white font-bold py-3 px-4 rounded-md transition-colors"
                 >
-                    Masuk
+                    Reset
                 </button>
             </form>
         </Modal>
