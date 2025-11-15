@@ -73,7 +73,7 @@ const AppContent: React.FC = () => {
         setIsAdminLoginOpen(false);
         handleSetNotification('Login admin berhasil!');
     } else {
-        return "Password salah!";
+        return "Token salah!";
     }
   };
 
